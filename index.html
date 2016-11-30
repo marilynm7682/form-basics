@@ -12,16 +12,25 @@
 
 <body>
     <div class="container">
-        <h1>Form Basics</h1>
+        <h1>Getting to meet you</h1>
         <hr>
         <form action="http://www.w3schools.com/tags/demo_form.asp" method="get">
 
             Name:
-            <input type="text" name="name"><br> E-mail:
-            <input type="email" name="email"><br>
+            <input type="text" name="name" placeholder="Ex. Marilyn" required=name><br>
 
             <!--add your own inputs below-->
-
+            Gender:
+            <input type="text" name="gender" placeholder="Ex. Female"><br> How do you feel today> <br>
+            <select name="mood">
+                <option value= "Happy" selected>happy</option>
+                <option value="sad" selected>sad</option>
+                <option value="sleepy" selected>sleepy</option>
+                
+            </select> Which color do you like the most? <br>
+            <input type="radio" color="color" value="red"> Red <br>
+            <input type="radio" color="color" value="blue"> Blue <br>
+            <input type="radio" color="color" value="green"> Green <br>
 
 
 
